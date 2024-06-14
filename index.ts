@@ -1,7 +1,7 @@
 function returnVoid(): void {
   const num1: number = 1;
   const num2: number = 1;
-  if (num1 == num2) return;
+  console.log(num1, num2);
 }
 
 console.log(returnVoid());
